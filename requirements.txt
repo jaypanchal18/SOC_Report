@@ -1,7 +1,6 @@
 streamlit
-fitz
+pymupdf
 openai
-sqlite3
 faiss-cpu
 sentence-transformers
-sklearn
+scikit-learn
