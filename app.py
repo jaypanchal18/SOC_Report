@@ -13,7 +13,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 load_dotenv()
 
 # Set your OpenAI API key securely from the .env file
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # Initialize the embedding model
 embedding_model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
