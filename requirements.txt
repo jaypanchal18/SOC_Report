@@ -1,0 +1,7 @@
+streamlit
+fitz
+openai
+sqlite3
+faiss-cpu
+sentence-transformers
+sklearn
