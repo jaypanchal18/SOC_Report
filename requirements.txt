@@ -4,3 +4,4 @@ openai
 faiss-cpu
 sentence-transformers
 scikit-learn
+python-dotenv
